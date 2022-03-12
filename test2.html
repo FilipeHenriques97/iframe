@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<script type="text/javascript">
+		    function setBrowserFrameSource(channel){
+		        var browserFrame = document.getElementById("browser");
+		        browserFrame.src= channel;
+		    }
+		</script>
+	</head>	
+
+	<body>
+		<!--
+		<form method="post" target="browser">
+		<input id="txtUrl" style="width:82%;" placeholder="Put the website here" name="url" type="text" />
+		<input style="width:8%;" type="button" value="Go" onclick="setBrowserFrameSource(); return false;"/>
+		</form>
+		-->
+	  	<button onclick="setBrowserFrameSource('https://dzeko11.net/embedplayer/PT/1957')">Eleven1</button>
+	  	<button onclick="setBrowserFrameSource('https://dzeko11.net/embedplayer/PT/1958')">Eleven2</button>
+
+		<iframe id="browser" name="browser" src="http://google.com" style="height:100%; width:100%" marginheight="0" marginwidth="0" scrolling="no" frameborder="0" allow="encrypted-media" allowfullscreen ></iframe>
+	</body>
+
+</html> 
