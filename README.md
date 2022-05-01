@@ -24,8 +24,5 @@ https://dzeko11.net/embedplayer/PT/1957
 Eleven2
 https://dzeko11.net/embedplayer/PT/1958
 
-Canal11
-https://dzeko11.net/embedplayer/PT/2717
-
 F1
 //f1livegp.me/f1/live.php
